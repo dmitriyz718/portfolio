@@ -6,9 +6,10 @@ ReactJS
 Javascript
 HTML
 CSS
-Reactstrap
+React-Materialize
 Axios
 React Router
+EmailJS
 ```
 
 # Portfolio website site designed for and created by
