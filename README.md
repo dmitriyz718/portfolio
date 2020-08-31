@@ -7,6 +7,7 @@ Javascript
 HTML
 CSS
 Reactstrap
+Axios
 ```
 
 # Portfolio website site designed for and created by
