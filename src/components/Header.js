@@ -16,7 +16,7 @@ class Header extends Component {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link href="#features">About Me</Nav.Link>
-            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#resume">Resume</Nav.Link>
           </Nav>
           <Nav>

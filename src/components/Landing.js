@@ -12,7 +12,7 @@ class Landing extends Component {
               <Image src={profilepic} height="171" />
             </Col>
             <Col>
-              <h4>Full stack engineer with extensive knowledge of:</h4>
+              <h4>Full stack engineer with experience in:</h4>
             </Col>
             <Col>
               <ul>

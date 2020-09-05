@@ -21,3 +21,7 @@ ul {
   list-style: none;
   color: whitesmoke;
 }
+
+li {
+  font-weight: bold;
+}
