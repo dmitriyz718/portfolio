@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 
-export default class Social extends Component {
+class Social extends Component {
   render() {
-    return <div></div>;
+    return <div>Social</div>;
   }
 }
+export default Social;

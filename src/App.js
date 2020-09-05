@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Image } from "react-bootstrap";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import About from "./components/About";
@@ -11,9 +10,9 @@ import Portfolio from "./components/Portfolio";
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="bg">
         <Header />
-        <Landing />
+        <Landing position="relative" />
         <About />
         <Resume />
         <Portfolio />

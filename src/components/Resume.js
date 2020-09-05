@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 
-export default class Resume extends Component {
+class Resume extends Component {
   render() {
-    return <div></div>;
+    return <div>Resume</div>;
   }
 }
+export default Resume;
