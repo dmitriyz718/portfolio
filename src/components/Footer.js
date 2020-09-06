@@ -7,6 +7,7 @@ class Footer extends Component {
       <Navbar
         className="justify-content-center"
         sticky="bottom"
+        id="footer"
         expand="lg"
         bg="secondary"
         variant="dark"

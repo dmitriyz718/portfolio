@@ -15,7 +15,7 @@ body {
   background: none;
 }
 
-.bg > * {
+.bg>* {
   color: white;
   font: 20px;
   padding: 40px;
@@ -23,6 +23,15 @@ body {
 
 .navbar {
   font-family: var(--main-font);
+  ;
+}
+
+#footer {
+  padding: 20px;
+}
+
+#navbar {
+  padding: 20px;
 }
 
 .jumbotron {
