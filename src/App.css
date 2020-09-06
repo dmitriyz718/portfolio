@@ -10,9 +10,11 @@ body {
   background: url("portfoliobg.jpg") center center no-repeat;
   background-size: cover;
 }
+
 #projects {
   background: none;
 }
+
 .bg > * {
   color: white;
   font: 20px;
@@ -30,6 +32,13 @@ body {
 
 .contactfooter {
   text-align: right;
+}
+
+#resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 ul {

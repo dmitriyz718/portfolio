@@ -19,7 +19,7 @@ class Header extends Component {
             <Nav.Link href="#about" style={{ fontWeight: "bold" }}>
               About Me
             </Nav.Link>
-            <Nav.Link href="#projects" style={{ fontWeight: "bold" }}>
+            <Nav.Link href="#portfolio" style={{ fontWeight: "bold" }}>
               Projects
             </Nav.Link>
             <Nav.Link href="#resume" style={{ fontWeight: "bold" }}>

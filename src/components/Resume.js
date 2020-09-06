@@ -1,13 +1,49 @@
 import React, { Component } from "react";
-
+import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
+import myResume from "../DmitriyResume.pdf";
 class Resume extends Component {
+  state = { numPages: null, pageNumber: 1 };
+
+  onDocumentLoadSuccess = ({ numPages }) => {
+    this.setState({ numPages });
+  };
+
+  goToPrevPage = () =>
+    this.setState((state) => ({ pageNumber: state.pageNumber - 1 }));
+  goToNextPage = () =>
+    this.setState((state) => ({ pageNumber: state.pageNumber + 1 }));
+
   render() {
+    const { pageNumber, numPages } = this.state;
+
     return (
-      <div id="resume" className="justify-content-center">
-        <h2 className="justify-content-center">Resume</h2>
+      <div id="resume">
+        <div style={{ width: 600 }}>
+          <Document file={myResume} onLoadSuccess={this.onDocumentLoadSuccess}>
+            <Page pageNumber={pageNumber} width={600} />
+          </Document>
+        </div>
+        <nav>
+          <button
+            onClick={
+              this.state.pageNumber < 2 ? this.goToNextPage : this.goToPrevPage
+            }
+          >
+            Prev
+          </button>
+          <button
+            onClick={
+              this.state.pageNumber < 2 ? this.goToNextPage : this.goToPrevPage
+            }
+          >
+            Next
+          </button>
+        </nav>
+        <p>
+          Page {pageNumber} of {numPages}
+        </p>
       </div>
     );
   }
 }
-
 export default Resume;
