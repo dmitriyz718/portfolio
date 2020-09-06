@@ -1,20 +1,35 @@
+:root {
+  --main-font: "Roboto Mono", monospace, sans-serif;
+}
+
 body {
-  font-family: 'Roboto Mono', monospace, sans-serif;
+  font-family: var(--main-font);
 }
 
 .bg {
   background: url("portfoliobg.jpg") center center no-repeat;
   background-size: cover;
 }
-
-.bg>* {
+#projects {
+  background: none;
+}
+.bg > * {
   color: white;
   font: 20px;
   padding: 40px;
 }
 
+.navbar {
+  font-family: var(--main-font);
+}
+
 .jumbotron {
+  font-family: var(--main-font);
   background: none;
+}
+
+.contactfooter {
+  text-align: right;
 }
 
 ul {
@@ -24,4 +39,8 @@ ul {
 
 li {
   font-weight: bold;
+}
+
+div {
+  font-family: var(--main-font);
 }

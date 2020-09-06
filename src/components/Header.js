@@ -10,22 +10,34 @@ class Header extends Component {
         expand="lg"
         bg="#0A3537"
         variant="dark"
+        id="navbar"
       >
         <Navbar.Brand href="#home">Dmitriy Zagoruyko</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link href="#features">About Me</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#resume">Resume</Nav.Link>
+            <Nav.Link href="#about" style={{ fontWeight: "bold" }}>
+              About Me
+            </Nav.Link>
+            <Nav.Link href="#projects" style={{ fontWeight: "bold" }}>
+              Projects
+            </Nav.Link>
+            <Nav.Link href="#resume" style={{ fontWeight: "bold" }}>
+              Resume
+            </Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link target="_blank" href="https://github.com/dmitriyz718">
+            <Nav.Link
+              target="_blank"
+              style={{ fontWeight: "bold" }}
+              href="https://github.com/dmitriyz718"
+            >
               Github
             </Nav.Link>
             <Nav.Link
               eventKey={2}
               target="_blank"
+              style={{ fontWeight: "bold" }}
               href="https://www.linkedin.com/in/dmitriyzag/"
             >
               LinkedIn

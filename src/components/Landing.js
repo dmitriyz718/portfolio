@@ -4,7 +4,7 @@ import profilepic from "../profilepic.png";
 class Landing extends Component {
   render() {
     return (
-      <Jumbotron fluid style={{ background: "none" }}>
+      <Jumbotron fluid style={{ background: "none" }} id="home">
         <Container>
           <h2>Full Stack Software Engineer</h2>
           <Row xs="auto">
