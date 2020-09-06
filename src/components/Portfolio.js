@@ -17,11 +17,11 @@ class Portfolio extends Component {
             <Card.Text>
               <p>
                 This is a two part project, a server side serving up API using
-                Node.JS as well as Mongoose, Express, and MongoDB
+                Node.JS as well as Mongoose, Express, and MongoDB.
               </p>
               <p>
                 The Front end is utilizing React JS, as well as React-Bootstrap
-                and several other technologies
+                and several other technologies.
               </p>
               <p>
                 The project is being designed for real life use for a family ran

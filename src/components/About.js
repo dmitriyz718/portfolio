@@ -10,8 +10,8 @@ class About extends Component {
           in Business Administration. I've worked for several companies in the
           IT department with being a contractor for Cisco Systems in California
           being my first job. Unfortunately, that role had me travel to over 10
-          states/cities within just the first coule of months so I had to resign
-          due to me wanting to spend more time at home.
+          states and cities within just the first couple of months so I had to
+          resign due to me wanting to spend more time at home.
         </p>
         <p>
           Shortly after, I set up the IT infrastructure for a company that sells
@@ -28,7 +28,7 @@ class About extends Component {
           A combination of passion as well as my overall thinking process. I was
           asked once to survey a website that was about to go public, and
           without even thinking, instead of looking at the website, I instead
-          instinctively opened my dev tools and began to analyze thesite from
+          instinctively opened my dev tools and began to analyze the site from
           the inside out checking for responsive designs and so on. The person
           conducting the survey ended up asking me if that is how I view all the
           websites that I initially visit. I see code and the final product that
