@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
-import myResume from "../DmitriyResume.pdf";
+import myResume from "../DmitriyZResume.pdf";
 class Resume extends Component {
   state = { numPages: null, pageNumber: 1 };
 

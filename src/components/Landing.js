@@ -28,6 +28,7 @@ class Landing extends Component {
               <li>Python, Django, Flask</li>
             </ul>
           </Row>
+          <p>Primary Email: dmitriy@dnyc.dev</p>
         </Container>
       </Jumbotron>
     );
