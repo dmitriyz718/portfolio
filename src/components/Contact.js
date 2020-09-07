@@ -44,12 +44,15 @@ class Contact extends Component {
       .then(
         (result) => {
           console.log(result.text);
+          alert("Email sent");
         },
         (error) => {
           console.log(error.text);
+          alert(
+            "Unable to sent email, please make sure you filled every out out and did the captcha."
+          );
         }
       );
-    alert("Email sent");
     this.toggle();
   };
   render() {
