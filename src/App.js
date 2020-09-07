@@ -7,7 +7,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
+
 class App extends Component {
   render() {
     return (
@@ -17,6 +17,7 @@ class App extends Component {
         <About />
         <Resume />
         <Portfolio />
+
         <Footer />
       </div>
     );

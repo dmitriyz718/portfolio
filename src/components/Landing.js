@@ -26,6 +26,7 @@ class Landing extends Component {
               <li>HTML5</li>
               <li>CSS3</li>
               <li>Python, Django, Flask</li>
+              <li>Bootstrap, Materialize</li>
             </ul>
           </Row>
           <p>Primary Email: dmitriy@dnyc.dev</p>

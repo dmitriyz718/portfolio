@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Navbar, Nav } from "react-bootstrap";
-
+import Contact from "./Contact";
 class Header extends Component {
   render() {
     return (
@@ -44,6 +44,7 @@ class Header extends Component {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
+        <Contact />
       </Navbar>
     );
   }
