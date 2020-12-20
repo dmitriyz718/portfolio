@@ -90,7 +90,7 @@ class Contact extends Component {
                   <strong>Message</strong>
                 </Label>
                 <Input
-                  type="textare"
+                  type="textarea"
                   name="message"
                   id="message"
                   onChange={this.onChange}

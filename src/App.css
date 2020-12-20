@@ -7,7 +7,7 @@ body {
 }
 
 .bg {
-  background: url("portfoliobg.jpg") center center no-repeat;
+  background-color: gainsboro;
   background-size: cover;
 }
 
@@ -15,10 +15,10 @@ body {
   background: none;
 }
 #contactme {
-  color: whitesmoke;
+  color: black;
 }
 .bg > * {
-  color: white;
+  color: black;
   font: 20px;
   padding: 40px;
 }
@@ -53,7 +53,7 @@ body {
 
 ul {
   list-style: none;
-  color: whitesmoke;
+  color: black;
 }
 
 li {

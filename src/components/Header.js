@@ -9,7 +9,7 @@ class Header extends Component {
         collapseOnSelect
         expand="lg"
         bg="#0A3537"
-        variant="dark"
+        variant="light"
         id="navbar"
       >
         <Navbar.Brand href="#home">Dmitriy Zagoruyko</Navbar.Brand>
@@ -19,7 +19,7 @@ class Header extends Component {
             <Nav.Link href="#about" style={{ fontWeight: "bold" }}>
               About Me
             </Nav.Link>
-            <Nav.Link href="#portfolio" style={{ fontWeight: "bold" }}>
+            <Nav.Link href="#projects" style={{ fontWeight: "bold" }}>
               Projects
             </Nav.Link>
             <Nav.Link href="#resume" style={{ fontWeight: "bold" }}>
